@@ -1,0 +1,85 @@
+﻿Build started 20-06-2015 14:50:26.
+     1>Project "D:\git\Crew Game\crewgame\Crew Game Editor\Crew Game Editor\Crew Game Editor.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git\Crew Game\crewgame\Crew Game Editor\Release\Crew Game Editor.exe" /NOLOGO glfw3dll.lib opengl32.lib glew32.lib libfreetype.lib FreeImage.lib OpenAL32.lib libvorbis.lib libogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\git\Crew Game\crewgame\Crew Game Editor\Release\Crew Game Editor.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git\Crew Game\crewgame\Crew Game Editor\Release\Crew Game Editor.lib" /MACHINE:X86 /SAFESEH Release\gc_common.obj
+         Release\gc_thread.obj
+         Release\ga_openal.obj
+         Release\ga.obj
+         Release\gau.obj
+         Release\ga_stream.obj
+         Release\game.obj
+         Release\main.obj
+         Release\sound.obj
+         Release\soundmanager.obj
+         Release\crewgame.obj
+         Release\eventlist.obj
+         Release\eventlist.obj
+         Release\button.obj
+         Release\component.obj
+         Release\panel.obj
+         Release\tile.obj
+         Release\tiles.obj
+         Release\world.obj
+         Release\core.obj
+         Release\batchrenderer2d.obj
+         Release\font.obj
+         Release\renderable2d.obj
+         Release\cuberenderer.obj
+         Release\camera.obj
+         Release\entity.obj
+         Release\entityrenderer.obj
+         Release\firstperson_camera.obj
+         Release\particle.obj
+         Release\light.obj
+         Release\loader3d.obj
+         Release\modeltexture.obj
+         Release\rawmodel.obj
+         Release\terrain.obj
+         Release\terraintexturepack.obj
+         Release\texturedmodel.obj
+         Release\particlerenderer.obj
+         Release\terrainrenderer.obj
+         Release\bitmap.obj
+         Release\glFuncs.obj
+         Release\indexbuffer.obj
+         Release\renderer.obj
+         Release\shader.obj
+         Release\sprite.obj
+         Release\texture.obj
+         Release\window.obj
+         Release\maths_func.obj
+         Release\software_renderer.obj
+         Release\timer.obj
+         Release\util_funcs.obj
+         Release\zakix.obj
+     1>Release\eventlist.obj : warning LNK4042: object specified more than once; extras ignored
+         Generating code
+         Finished generating code
+     1>libvorbis.lib(vorbisfile.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(vorbisfile.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(info.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(info.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(block.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(block.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(synthesis.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(synthesis.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(analysis.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(analysis.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(registry.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(registry.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(sharedbook.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(sharedbook.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(codebook.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(codebook.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(psy.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(psy.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(smallft.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(smallft.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(envelope.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(envelope.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(mdct.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(mdct.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(bitrate.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(bitrate.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(lpc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(lpc.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(window.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(res0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(res0.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(mapping0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(mapping0.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(floor1.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(floor1.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(floor0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(floor0.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(lsp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(lsp.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libogg.lib(framing.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libogg.lib(framing.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+     1>libogg.lib(bitwise.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libogg.lib(bitwise.obj)' or at 'D:\git\Crew Game\crewgame\Crew Game Editor\Release\vc120.pdb'; linking object as if no debug info
+         Crew Game Editor.vcxproj -> D:\git\Crew Game\crewgame\Crew Game Editor\Release\Crew Game Editor.exe
+     1>Done Building Project "D:\git\Crew Game\crewgame\Crew Game Editor\Crew Game Editor\Crew Game Editor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.69
