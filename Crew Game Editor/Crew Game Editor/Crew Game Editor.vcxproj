@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14B391C0-4C80-4626-A320-DFE003C86C40}</ProjectGuid>
+    <RootNamespace>Tttest</RootNamespace>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Programming\glfw-3.1.bin.WIN32\include;D:\Programming\Glew\include;D:\Programming\Freetype\include;D:\Programming\FreeImage\Win32\include;D:\Programming\GLM;D:\Programming\OpenAL\include;D:\Programming\libvorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Programming\glfw-3.1.bin.WIN32\lib-vc2013;D:\Programming\Glew\lib;D:\Programming\Freetype\lib;D:\Programming\FreeImage\Win32\lib;D:\Programming\OpenAL\libs\Win32;D:\Programming\libogg\bin;D:\Programming\libvorbis\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3dll.lib;opengl32.lib;glew32.lib;libfreetype.lib;FreeImage.lib;OpenAL32.lib;libvorbis.lib;libogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Programming\glfw-3.1.bin.WIN32\include;D:\Programming\Glew\include;D:\Programming\Freetype\include;D:\Programming\FreeImage\Win32\include;D:\Programming\GLM;D:\Programming\OpenAL\include;D:\Programming\libvorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\Programming\glfw-3.1.bin.WIN32\lib-vc2013;D:\Programming\Glew\lib;D:\Programming\Freetype\lib;D:\Programming\FreeImage\Win32\lib;D:\Programming\OpenAL\libs\Win32;D:\Programming\libogg\bin;D:\Programming\libvorbis\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3dll.lib;opengl32.lib;glew32.lib;libfreetype.lib;FreeImage.lib;OpenAL32.lib;libvorbis.lib;libogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ext\gorilla-audio\common\gc_common.c" />
+    <ClCompile Include="ext\gorilla-audio\common\gc_thread.c" />
+    <ClCompile Include="ext\gorilla-audio\devices\ga_openal.c" />
+    <ClCompile Include="ext\gorilla-audio\ga.c" />
+    <ClCompile Include="ext\gorilla-audio\gau.c" />
+    <ClCompile Include="ext\gorilla-audio\ga_stream.c" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\audio\sound.cpp" />
+    <ClCompile Include="src\audio\soundmanager.cpp" />
+    <ClCompile Include="src\crewgame\crewgame.cpp" />
+    <ClCompile Include="src\crewgame\event\eventlist.cpp" />
+    <ClCompile Include="src\crewgame\event\eventlist.h" />
+    <ClCompile Include="src\crewgame\ui\button.cpp" />
+    <ClCompile Include="src\crewgame\ui\component.cpp" />
+    <ClCompile Include="src\crewgame\ui\panel.cpp" />
+    <ClCompile Include="src\crewgame\world\tile\tile.cpp" />
+    <ClCompile Include="src\crewgame\world\tile\tiles.cpp" />
+    <ClCompile Include="src\crewgame\world\world.cpp" />
+    <ClCompile Include="src\engine\core.cpp" />
+    <ClCompile Include="src\graphics\2d\batchrenderer2d.cpp" />
+    <ClCompile Include="src\graphics\2d\font.cpp" />
+    <ClCompile Include="src\graphics\2d\renderable2d.cpp" />
+    <ClCompile Include="src\graphics\3d\cuberenderer.cpp" />
+    <ClCompile Include="src\graphics\3d\entity\camera.cpp" />
+    <ClCompile Include="src\graphics\3d\entity\entity.cpp" />
+    <ClCompile Include="src\graphics\3d\entityrenderer.cpp" />
+    <ClCompile Include="src\graphics\3d\entity\firstperson_camera.cpp" />
+    <ClCompile Include="src\graphics\3d\entity\particle.cpp" />
+    <ClCompile Include="src\graphics\3d\light.cpp" />
+    <ClCompile Include="src\graphics\3d\loader3d.cpp" />
+    <ClCompile Include="src\graphics\3d\model\modeltexture.cpp" />
+    <ClCompile Include="src\graphics\3d\model\rawmodel.cpp" />
+    <ClCompile Include="src\graphics\3d\model\terrain.cpp" />
+    <ClCompile Include="src\graphics\3d\model\terraintexturepack.cpp" />
+    <ClCompile Include="src\graphics\3d\model\texturedmodel.cpp" />
+    <ClCompile Include="src\graphics\3d\particlerenderer.cpp" />
+    <ClCompile Include="src\graphics\3d\terrainrenderer.cpp" />
+    <ClCompile Include="src\graphics\bitmap.cpp" />
+    <ClCompile Include="src\graphics\glFuncs.cpp" />
+    <ClCompile Include="src\graphics\indexbuffer.cpp" />
+    <ClCompile Include="src\graphics\renderer.cpp" />
+    <ClCompile Include="src\graphics\shader.cpp" />
+    <ClCompile Include="src\graphics\2d\sprite.cpp" />
+    <ClCompile Include="src\graphics\texture.cpp" />
+    <ClCompile Include="src\graphics\window.cpp" />
+    <ClCompile Include="src\maths\maths_func.cpp" />
+    <ClCompile Include="src\sftrdr\software_renderer.cpp" />
+    <ClCompile Include="src\utils\timer.cpp" />
+    <ClCompile Include="src\utils\util_funcs.cpp" />
+    <ClCompile Include="src\zakix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\gorilla-audio\common\gc_common.h" />
+    <ClInclude Include="ext\gorilla-audio\common\gc_thread.h" />
+    <ClInclude Include="ext\gorilla-audio\common\gc_types.h" />
+    <ClInclude Include="ext\gorilla-audio\devices\ga_openal.h" />
+    <ClInclude Include="ext\gorilla-audio\ga.h" />
+    <ClInclude Include="ext\gorilla-audio\gau.h" />
+    <ClInclude Include="ext\gorilla-audio\ga_internal.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="src\audio\sound.h" />
+    <ClInclude Include="src\audio\soundmanager.h" />
+    <ClInclude Include="src\crewgame\crewgame.h" />
+    <ClInclude Include="src\crewgame\event\event.h" />
+    <ClInclude Include="src\crewgame\ui\button.h" />
+    <ClInclude Include="src\crewgame\ui\component.h" />
+    <ClInclude Include="src\crewgame\ui\panel.h" />
+    <ClInclude Include="src\crewgame\world\tile\tile.h" />
+    <ClInclude Include="src\crewgame\world\tile\tiles.h" />
+    <ClInclude Include="src\engine\core.h" />
+    <ClInclude Include="src\engine\windowconfig.h" />
+    <ClInclude Include="src\graphics\2d\batchrenderer2d.h" />
+    <ClInclude Include="src\graphics\2d\font.h" />
+    <ClInclude Include="src\graphics\3d\cuberenderer.h" />
+    <ClInclude Include="src\graphics\3d\entity\camera.h" />
+    <ClInclude Include="src\graphics\3d\entity\entity.h" />
+    <ClInclude Include="src\graphics\3d\entityrenderer.h" />
+    <ClInclude Include="src\graphics\3d\entity\firstperson_camera.h" />
+    <ClInclude Include="src\graphics\3d\light.h" />
+    <ClInclude Include="src\graphics\3d\loader3d.h" />
+    <ClInclude Include="src\graphics\3d\model\modeltexture.h" />
+    <ClInclude Include="src\graphics\3d\model\rawmodel.h" />
+    <ClInclude Include="src\graphics\3d\model\terraintexturepack.h" />
+    <ClInclude Include="src\graphics\3d\model\texturedmodel.h" />
+    <ClInclude Include="src\graphics\3d\entity\particle.h" />
+    <ClInclude Include="src\graphics\3d\particlerenderer.h" />
+    <ClInclude Include="src\graphics\3d\terrainrenderer.h" />
+    <ClInclude Include="src\graphics\bitmap.h" />
+    <ClInclude Include="src\graphics\glFuncs.h" />
+    <ClInclude Include="src\graphics\indexbuffer.h" />
+    <ClInclude Include="src\graphics\2d\renderable2d.h" />
+    <ClInclude Include="src\graphics\renderer.h" />
+    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\graphics\2d\sprite.h" />
+    <ClInclude Include="src\graphics\texture.h" />
+    <ClInclude Include="src\graphics\window.h" />
+    <ClInclude Include="src\maths\maths.h" />
+    <ClInclude Include="src\maths\maths_func.h" />
+    <ClInclude Include="src\sftrdr\software_renderer.h" />
+    <ClInclude Include="src\sftrdr\visualizer.h" />
+    <ClInclude Include="src\sftrdr\Worker.h" />
+    <ClInclude Include="src\utils\fileutils.h" />
+    <ClInclude Include="src\utils\timer.h" />
+    <ClInclude Include="src\utils\util_funcs.h" />
+    <ClInclude Include="src\zakix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\crewgame\world\world.h" />
+    <None Include="src\graphics\3d\model\terrain.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

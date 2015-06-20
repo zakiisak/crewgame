@@ -1,0 +1,248 @@
+﻿Build started 20-06-2015 12:59:10.
+     1>Project "D:\Programming\c++\Crew Game Editor\Crew Game Editor\Crew Game Editor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Programming\glfw-3.1.bin.WIN32\include" /ID:\Programming\Glew\include /ID:\Programming\Freetype\include /ID:\Programming\FreeImage\Win32\include /ID:\Programming\GLM /ID:\Programming\OpenAL\include /ID:\Programming\libvorbis\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "ext\gorilla-audio\common\gc_common.c" "ext\gorilla-audio\common\gc_thread.c" "ext\gorilla-audio\devices\ga_openal.c" "ext\gorilla-audio\ga.c" "ext\gorilla-audio\gau.c" "ext\gorilla-audio\ga_stream.c"
+         ga_stream.c
+         gau.c
+         ga.c
+         ga_openal.c
+     1>d:\programming\c++\crew game editor\crew game editor\ext\gorilla-audio\devices\ga_openal.c(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\programming\c++\crew game editor\crew game editor\ext\gorilla-audio\devices\ga_openal.c(80): warning C4047: '!=' : 'gc_uint32 *' differs in levels of indirection from 'unsigned int'
+         gc_thread.c
+         gc_common.c
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Programming\glfw-3.1.bin.WIN32\include" /ID:\Programming\Glew\include /ID:\Programming\Freetype\include /ID:\Programming\FreeImage\Win32\include /ID:\Programming\GLM /ID:\Programming\OpenAL\include /ID:\Programming\libvorbis\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp main.cpp src\audio\sound.cpp src\audio\soundmanager.cpp src\crewgame\crewgame.cpp src\crewgame\event\eventlist.cpp src\crewgame\event\eventlist.h src\crewgame\ui\button.cpp src\crewgame\ui\component.cpp src\crewgame\ui\panel.cpp src\crewgame\world\tile\tile.cpp src\crewgame\world\tile\tiles.cpp src\crewgame\world\world.cpp src\engine\core.cpp src\graphics\2d\batchrenderer2d.cpp src\graphics\2d\font.cpp src\graphics\2d\renderable2d.cpp src\graphics\3d\cuberenderer.cpp src\graphics\3d\entity\camera.cpp src\graphics\3d\entity\entity.cpp src\graphics\3d\entityrenderer.cpp src\graphics\3d\entity\firstperson_camera.cpp src\graphics\3d\entity\particle.cpp src\graphics\3d\light.cpp src\graphics\3d\loader3d.cpp src\graphics\3d\model\modeltexture.cpp src\graphics\3d\model\rawmodel.cpp src\graphics\3d\model\terrain.cpp src\graphics\3d\model\terraintexturepack.cpp src\graphics\3d\model\texturedmodel.cpp src\graphics\3d\particlerenderer.cpp src\graphics\3d\terrainrenderer.cpp src\graphics\bitmap.cpp src\graphics\glFuncs.cpp src\graphics\indexbuffer.cpp src\graphics\renderer.cpp src\graphics\shader.cpp src\graphics\2d\sprite.cpp src\graphics\texture.cpp src\graphics\window.cpp src\maths\maths_func.cpp src\sftrdr\software_renderer.cpp src\utils\timer.cpp src\utils\util_funcs.cpp src\zakix.cpp
+         zakix.cpp
+         util_funcs.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\utils\util_funcs.cpp(20): warning C4172: returning address of local variable or temporary
+         timer.cpp
+         software_renderer.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\sftrdr\software_renderer.cpp(39): warning C4018: '>=' : signed/unsigned mismatch
+         maths_func.cpp
+         window.cpp
+         texture.cpp
+         sprite.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         shader.cpp
+         renderer.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         indexbuffer.cpp
+         glFuncs.cpp
+         bitmap.cpp
+         terrainrenderer.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\terrainrenderer.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         particlerenderer.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(83): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(69) : definition of 'i' ignored
+                 d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(58) : definition of 'i' used
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(84): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(69) : definition of 'i' ignored
+                 d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\particlerenderer.cpp(58) : definition of 'i' used
+         texturedmodel.cpp
+         terraintexturepack.cpp
+         terrain.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\model\terrain.cpp(40): warning C4018: '>=' : signed/unsigned mismatch
+         rawmodel.cpp
+         modeltexture.cpp
+         Generating Code...
+         Compiling...
+         loader3d.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\loader3d.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\loader3d.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\loader3d.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\loader3d.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+         light.cpp
+         particle.cpp
+         firstperson_camera.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\entity\firstperson_camera.cpp(23): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\entity\firstperson_camera.cpp(24): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         entityrenderer.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\3d\entityrenderer.cpp(113): warning C4018: '<' : signed/unsigned mismatch
+         entity.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         camera.cpp
+         cuberenderer.cpp
+         renderable2d.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         font.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\font.cpp(64): warning C4244: '=' : conversion from 'FT_Int' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\font.cpp(65): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\font.cpp(66): warning C4244: '=' : conversion from 'FT_Int' to 'float', possible loss of data
+         batchrenderer2d.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         core.cpp
+         world.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\world.cpp(39): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\world.cpp(40): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\world.cpp(41): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\world.cpp(42): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\world.cpp(48): warning C4018: '>=' : signed/unsigned mismatch
+         tiles.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\world\tile\tiles.cpp(22): warning C4018: '>' : signed/unsigned mismatch
+         tile.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         panel.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         component.cpp
+         button.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         eventlist.h
+         eventlist.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         crewgame.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(33): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(66): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(67): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(72): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(73): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(121): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(122): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(125): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(126): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(140): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(141): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(143): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(144): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(155): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(156): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(159): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\crewgame\crewgame.cpp(160): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+         soundmanager.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\audio\soundmanager.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+         sound.cpp
+         main.cpp
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(29): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(30): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(31): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\programming\c++\crew game editor\crew game editor\src\graphics\2d\renderable2d.h(32): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         game.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\c++\Crew Game Editor\Debug\Crew Game Editor.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Programming\glfw-3.1.bin.WIN32\lib-vc2013" /LIBPATH:D:\Programming\Glew\lib /LIBPATH:D:\Programming\Freetype\lib /LIBPATH:D:\Programming\FreeImage\Win32\lib /LIBPATH:D:\Programming\OpenAL\libs\Win32 /LIBPATH:D:\Programming\libogg\bin /LIBPATH:D:\Programming\libvorbis\bin glfw3dll.lib opengl32.lib glew32.lib libfreetype.lib FreeImage.lib OpenAL32.lib libvorbis.lib libogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\c++\Crew Game Editor\Debug\Crew Game Editor.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\c++\Crew Game Editor\Debug\Crew Game Editor.lib" /MACHINE:X86 Debug\gc_common.obj
+         Debug\gc_thread.obj
+         Debug\ga_openal.obj
+         Debug\ga.obj
+         Debug\gau.obj
+         Debug\ga_stream.obj
+         Debug\game.obj
+         Debug\main.obj
+         Debug\sound.obj
+         Debug\soundmanager.obj
+         Debug\crewgame.obj
+         Debug\eventlist.obj
+         Debug\eventlist.obj
+         Debug\button.obj
+         Debug\component.obj
+         Debug\panel.obj
+         Debug\tile.obj
+         Debug\tiles.obj
+         Debug\world.obj
+         Debug\core.obj
+         Debug\batchrenderer2d.obj
+         Debug\font.obj
+         Debug\renderable2d.obj
+         Debug\cuberenderer.obj
+         Debug\camera.obj
+         Debug\entity.obj
+         Debug\entityrenderer.obj
+         Debug\firstperson_camera.obj
+         Debug\particle.obj
+         Debug\light.obj
+         Debug\loader3d.obj
+         Debug\modeltexture.obj
+         Debug\rawmodel.obj
+         Debug\terrain.obj
+         Debug\terraintexturepack.obj
+         Debug\texturedmodel.obj
+         Debug\particlerenderer.obj
+         Debug\terrainrenderer.obj
+         Debug\bitmap.obj
+         Debug\glFuncs.obj
+         Debug\indexbuffer.obj
+         Debug\renderer.obj
+         Debug\shader.obj
+         Debug\sprite.obj
+         Debug\texture.obj
+         Debug\window.obj
+         Debug\maths_func.obj
+         Debug\software_renderer.obj
+         Debug\timer.obj
+         Debug\util_funcs.obj
+         Debug\zakix.obj
+     1>Debug\eventlist.obj : warning LNK4042: object specified more than once; extras ignored
+         libvorbis.lib(vorbisfile.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>gc_common.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>Debug\eventlist.obj : warning LNK4042: object specified more than once; extras ignored
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>libvorbis.lib(vorbisfile.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(vorbisfile.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(info.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(info.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(block.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(block.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(synthesis.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(synthesis.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(analysis.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(analysis.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(registry.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(registry.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(sharedbook.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(sharedbook.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(codebook.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(codebook.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(psy.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(psy.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(smallft.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(smallft.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(envelope.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(envelope.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(mdct.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(mdct.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(bitrate.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(bitrate.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(lpc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(lpc.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(window.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(res0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(res0.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(mapping0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(mapping0.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(floor1.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(floor1.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(floor0.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(floor0.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libvorbis.lib(lsp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libvorbis.lib(lsp.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libogg.lib(framing.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libogg.lib(framing.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+     1>libogg.lib(bitwise.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libogg.lib(bitwise.obj)' or at 'D:\Programming\c++\Crew Game Editor\Debug\vc120.pdb'; linking object as if no debug info
+         Crew Game Editor.vcxproj -> D:\Programming\c++\Crew Game Editor\Debug\Crew Game Editor.exe
+     1>Done Building Project "D:\Programming\c++\Crew Game Editor\Crew Game Editor\Crew Game Editor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.80
